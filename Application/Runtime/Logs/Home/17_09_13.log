@@ -1,0 +1,3471 @@
+[ 2017-09-13T09:18:06+08:00 ] ::1 /ode_blog/index.php/Home/personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0490s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0190s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-13T09:18:06+08:00 ] ::1 /ode_blog/index.php/Home/personal/images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T09:18:12+08:00 ] ::1 /ode_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T09:56:00+08:00 ] ::1 /ode_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.2950s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:20:22+08:00 ] ::1 /ode_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:20:32+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:20:45+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:21:47+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T10:21:54+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:22:16+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:23:43+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:23:57+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:26:34+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:29:03+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:29:11+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:29:18+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:29:25+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:29:35+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:29:38+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:29:46+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T10:29:53+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:42:20+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:43:17+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:43:26+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:43:32+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:43:50+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:44:12+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:44:16+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:44:55+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T10:44:59+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:45:09+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:46:21+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:46:51+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:48:33+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:59:32+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T10:59:47+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:00:09+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:01:19+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:01:29+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:01:44+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:01:50+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:17:08+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:17:51+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:18:18+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+NOTIC: [8] Undefined index: savename D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:19:18+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+NOTIC: [8] Undefined index: savename D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:19:43+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+NOTIC: [8] Undefined index: savename D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:20:28+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:22:05+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:22:48+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:23:24+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T11:23:41+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:26:32+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T12:32:29+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T12:32:32+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\ode_blog\Application\Home\Controller\UploadController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T12:34:07+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T12:35:01+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T12:47:28+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:45:15+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T14:45:45+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:45:46+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:45:49+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:45:55+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:45:58+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:46:11+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:46:22+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:46:27+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:46:30+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:46:34+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:46:38+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:46:42+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T14:46:46+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:46:53+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T14:47:04+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:47:07+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:47:13+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:47:16+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:47:19+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:48:22+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:49:37+08:00 ] ::1 /ode_blog/index.php/Home/personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:49:37+08:00 ] ::1 /ode_blog/index.php/Home/personal/images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:50:13+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T15:09:01+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:14:40+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:14:44+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T15:14:49+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:14:56+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:33:14+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:33:28+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=%E6%88%91%E7%9A%84%E6%A0%87%E9%A2%98&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('我的标题','1505288008','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:33:43+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288023','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288023','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','')
+
+[ 2017-09-13T15:34:23+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0140s ]
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288063','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288063','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','')
+
+[ 2017-09-13T15:37:34+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288254','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:37:38+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288258','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:37:40+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0110s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288260','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:37:44+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288264','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:38:03+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0140s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288283','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:38:11+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=%E9%81%9B%E7%8B%97%E6%84%9F%E6%83%B3&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('遛狗感想','1505288291','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:42:50+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288570','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:42:57+08:00 ] ::1 /ode_blog/index.php/Home/Article/add?article_title=&article_type=2&article_content=%3Cp%3E%E9%82%A3%E4%B9%88%E5%A5%BD%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E6%B1%AA%3C%2Fp%3E%3Cp%3E%3Cimg+src%3D%22http%3A%2F%2Flocalhost%2Fode_blog%2Fuploads%2FArticle%2F2017-09-13%2F59b8df3a01b9e.jpg%22+alt%3D%22%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%22%3E%3Cbr%3E%3C%2Fp%3E%3Cp%3E%E6%88%91%E6%9C%89%E7%82%B9%E6%83%B3%E5%B0%8FVilla%E4%BA%86%3C%2Fp%3E&file=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('','1505288577','&lt;p&gt;那么好那么好的汪&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8df3a01b9e.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有点想小Villa了&lt;/p&gt;','','') [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:55:07+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:55:09+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:55:10+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:55:10+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:55:11+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:57:56+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:57:57+08:00 ] ::1 /ode_blog/home/upload/add?article_title=1&article_content=1&article_type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:21+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:22+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:23+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:23+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:23+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:24+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:24+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:24+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:24+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:24+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:25+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:25+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:25+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:25+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:26+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:26+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:58:39+08:00 ] ::1 /ode_blog/home/upload/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2017-09-13T15:59:08+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0140s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505289548','1','','') [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:02:24+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0140s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505289744','1','1...','') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-13T16:04:38+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T16:04:40+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505289880','1&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e69646c35.jpg&quot; alt=&quot;测试图片&quot;&gt;1111','11111','') [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T16:14:39+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505290479','1&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e69646c35.jpg&quot; alt=&quot;测试图片&quot;&gt;1111','11111','img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e69646c35.jpg&quot; alt=&quot;测试图片&quot;') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T16:15:24+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505290524','1&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e69646c35.jpg&quot; alt=&quot;测试图片&quot;&gt;1111','11111','img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e69646c35.jpg&quot;') [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T16:15:56+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\ode_blog\Application\Home\Controller\ArticleController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505290556','11111','11111',NULL) [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:16:57+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\ode_blog\Application\Home\Controller\ArticleController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505290617','11111','11111','') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:17:09+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:17:12+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T16:17:14+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1','1505290633','11&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e988d8cc5.jpg&quot; alt=&quot;测试图片&quot;&gt;111&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e985b55a9.jpg&quot; alt=&quot;测试图片&quot;&gt;','11111','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e988d8cc5.jpg') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:21:58+08:00 ] ::1 /ode_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T16:23:22+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1\'\'','1505291002','11&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e988d8cc5.jpg&quot; alt=&quot;测试图片&quot;&gt;111&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e985b55a9.jpg&quot; alt=&quot;测试图片&quot;&gt;','11111','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e988d8cc5.jpg') [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:23:35+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('1\'','1505291015','11&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e988d8cc5.jpg&quot; alt=&quot;测试图片&quot;&gt;111&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e985b55a9.jpg&quot; alt=&quot;测试图片&quot;&gt;','11111','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8e988d8cc5.jpg') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:34:49+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T17:00:13+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T17:00:17+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('那么好那么好的汪','1505293217','&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f39d1ac11.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;','','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f39d1ac11.jpg') [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:02:47+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\ode_blog\Application\Home\Controller\ArticleController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('再有人问你私募现在怎么监管，就把这篇文章发给他！','1505293367','&lt;p&gt;&lt;a target=&quot;_self&quot; href=&quot;http://mp.weixin.qq.com/s/574583vYSU03BO4L5IXajQ&quot;&gt;http://mp.weixin.qq.com/s/574583vYSU03BO4L5IXajQ&lt;/a&gt;&lt;br&gt;&lt;/p&gt;','http://mp.weixin.qq....','') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:07:39+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:07:42+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('厉害了套餐','1505293662','&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f55b69bda.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;','','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f55b69bda.jpg') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:13:38+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:13:44+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:13:53+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('谁能看出我化了眼妆？','1505294033','&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f6c232342.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f6c83d464.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;','','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f6c232342.jpg') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:15:17+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:15:21+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('问世间是否此山最高','1505294121','&lt;p style=&quot;text-align: center;&quot;&gt;问世间是否此山最高&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;或者另有高出比天高&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;在世间自由山比此山更高&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;在我新世间始终你好&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f7253ae93.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;','问世间是否此�...','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f7253ae93.jpg') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:16:08+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:16:11+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('一株开花的蒜~破除我种啥夭折啥的 大 魔 咒 ~！','1505294171','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f758822f0.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;/p&gt;','','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f758822f0.jpg') [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:16:40+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:16:46+08:00 ] ::1 /ode_blog/home/upload/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\ode_blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:16:49+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`article_summary`,`article_img`) VALUES ('充满开心的一天','1505294209','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f778470e9.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f77e295a9.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;','','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f778470e9.jpg') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:22:01+08:00 ] ::1 /ode_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0330s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:22:03+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Home/View/Circle/index.html
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:22:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:22:55+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:css
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:22:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/images/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:23:42+08:00 ] ::1 /ode_blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:23:43+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T17:23:44+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T17:23:45+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:23:56+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:26:48+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:26:50+08:00 ] ::1 /ode_blog/index.php/Home/personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:26:50+08:00 ] ::1 /ode_blog/index.php/Home/personal/images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:26:52+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T17:26:54+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:26:56+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:26:56+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:26:57+08:00 ] ::1 /ode_blog/index.php/Home/work/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Work
+
+[ 2017-09-13T17:34:03+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:34:04+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:38:45+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:11+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:12+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:12+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:13+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:22+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:23+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:26+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:58+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:58+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:40:58+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:03+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:19+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:20+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:20+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:20+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:21+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:41:42+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:42:03+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:42:43+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:42:51+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:43:09+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:35+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:36+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:36+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:36+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:36+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:36+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:37+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:37+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:37+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:37+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:37+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0050s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:45:50+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:45:55+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: circleModel D:\xampp\htdocs\ode_blog\Application\Home\Controller\CircleController.class.php 第 11 行.
+
+[ 2017-09-13T17:46:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:46:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:46:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:46:38+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+ERR: 1146:Table 'ode_blog2.ode_circle' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ode_circle`
+
+[ 2017-09-13T17:48:55+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'article_type' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM ode_article WHERE article_type = 5
+ERR: 1054:Unknown column 'article_type' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM ode_article WHERE article_type = 5
+
+[ 2017-09-13T17:48:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'article_type' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM ode_article WHERE article_type = 5
+ERR: 1054:Unknown column 'article_type' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM ode_article WHERE article_type = 5
+
+[ 2017-09-13T17:49:30+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_article WHERE atype_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT count(*) FROM ode_article WHERE atype_id = 5 [ RunTime:0.0150s ]
+
+[ 2017-09-13T17:50:52+08:00 ] ::1 /ode_blog/home/article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ode_article` (`article_title`,`article_time`,`article_content`,`atype_id`,`article_summary`,`article_img`) VALUES ('充满开心的一天','1505296252','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f778470e9.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f77e295a9.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;br&gt;&lt;/p&gt;','5','','http://localhost/ode_blog/uploads/Article/2017-09-13/59b8f778470e9.jpg') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:51:02+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_article WHERE atype_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM ode_article WHERE atype_id = 5 [ RunTime:0.0000s ]
+
+[ 2017-09-13T17:51:33+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_article WHERE atype_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_article WHERE atype_id = 5 [ RunTime:0.0010s ]
+
+[ 2017-09-13T17:52:18+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_article WHERE atype_id = 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T17:52:57+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T17:53:19+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:54:33+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: article_title D:\xampp\htdocs\ode_blog\Application\Runtime\Cache\Home\29270bf2e5e97944b6dd4cdd3998a462.php 第 66 行.
+NOTIC: [2] Illegal string offset 'article_title' D:\xampp\htdocs\ode_blog\Application\Runtime\Cache\Home\29270bf2e5e97944b6dd4cdd3998a462.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:55:22+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: article_title D:\xampp\htdocs\ode_blog\Application\Runtime\Cache\Home\29270bf2e5e97944b6dd4cdd3998a462.php 第 66 行.
+NOTIC: [2] Illegal string offset 'article_title' D:\xampp\htdocs\ode_blog\Application\Runtime\Cache\Home\29270bf2e5e97944b6dd4cdd3998a462.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T17:55:40+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:56:16+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T17:56:54+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T18:00:02+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT *,FROM_UNIXTIME(article_time,'%Y-%m-%d') time FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T18:00:20+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0030s ]
+SQL: SELECT *,FROM_UNIXTIME(article_time,'%Y-%m-%d') time FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T18:02:47+08:00 ] ::1 /ode_blog/index.php/Home/personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0010s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T18:02:47+08:00 ] ::1 /ode_blog/index.php/Home/personal/images/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T18:02:55+08:00 ] ::1 /ode_blog/index.php/Home/feel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Feel
+
+[ 2017-09-13T18:02:58+08:00 ] ::1 /ode_blog/index.php/Home/circle/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ode_category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM ode_category c WHERE cat_level = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM ode_category c WHERE cat_parent_id = 6 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT *,FROM_UNIXTIME(article_time,'%Y-%m-%d') time FROM `ode_article` WHERE ( atype_id = 5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ode_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ode_article` WHERE ( atype_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
