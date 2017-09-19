@@ -11,9 +11,9 @@ class ArticleController extends Controller {
         $data['atype_id'] = I('article_type');
         $data['article_clicks'] =0;
         $text = I('text');
-        if(strlen($text)>20){
+        if(strlen($text)>50){
 //            $data['article_summary'] = substr($text,0,20).'...';
-            $data['article_summary'] = mb_substr($text,0,20,'utf-8').'...';
+            $data['article_summary'] = mb_substr($text,0,50,'utf-8').'...';
         }else{
             $data['article_summary'] =  $text;
         }
@@ -21,7 +21,7 @@ class ArticleController extends Controller {
         preg_match('/img src=&quot;(.*?)&quot;/',$data['article_content'],$img);
         $data['article_img'] = $img[1];
         if($data['article_img'] == null){
-            $data['article_img'] = 'http://localhost/ode_blog/uploads/default.jpg';
+            $data['article_img'] = 'http://47.52.130.241/ode_blog/Uploads/default.jpg';
         }
 
         $articleModel = new ArticleModel();

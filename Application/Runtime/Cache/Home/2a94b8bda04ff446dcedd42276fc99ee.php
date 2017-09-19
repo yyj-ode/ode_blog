@@ -58,14 +58,15 @@
     <div class="jztop"></div>
     <div class="container">
         <div class="bloglist f_l">
-            <h3><a href="article.html">【遛狗心情】那么好那么好的汪</a></h3>
-            <figure><img src="/ode_blog/Public/images/img_1.jpg" alt="【遛狗心情】那么好那么好的汪"></figure>
-            <ul>
-                <p> 我整理了一下网友给我的来信，如果你还在踌躇不前，不妨来看看，到底要不要坚持下去！我也欢迎大家给我来信，希望能帮到更多人。</p>
-                <a title="【心路历程】请不要在设计这条路上徘徊啦" href="/jstt/bj/2017-07-13/784.html" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
-            </ul>
-            <p class="dateview"><span>2017-07-13</span><span>作者：</span><span>个人博客：[<a href="circle.html">朋友圈</a>]</span></p>
+            <?php if(is_array($list)): foreach($list as $key=>$v): ?><h3><a href="/ode_blog/index.php/Home/article/detail/article_id/<?php echo ($v['article_id']); ?>">【<?php echo ($v['atype_name']); ?>】<?php echo ($v['article_title']); ?></a></h3>
+                <figure><img src="/ode_blog/Public/images/img_1.jpg" alt="【<?php echo ($v['atype_name']); ?>】<?php echo ($v['article_title']); ?>"></figure>
+                <ul>
+                    <p> <?php echo ($v['article_summary']); ?></p>
+                    <a title="<?php echo ($v['article_title']); ?>" href="/ode_blog/index.php/Home/article/detail/article_id/<?php echo ($v['article_id']); ?>" class="readmore">阅读全文&gt;&gt;</a>
+                </ul>
+                <p class="dateview"><span><?php echo ($v['article_time']); ?></span><span></span><span>个人博客：[<a href="/ode_blog/index.php/Home/<?php echo ($v['controller']); ?>/index"><?php echo ($v['atype_name']); ?></a>]</span></p><?php endforeach; endif; ?>
         </div>
+
         <div class="r_box f_r">
             <div class="tit01">
                 <h3 class="tit">关注我</h3>

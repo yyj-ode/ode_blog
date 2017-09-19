@@ -73,7 +73,7 @@
         //设置富文本编辑器上传接口
         layedit.set({
             uploadImage: {
-                url: 'http://localhost/ode_blog/home/upload/index' //接口url
+                url: 'http://47.52.130.241/ode_blog/index.php/home/upload/index' //接口url
                 ,type: 'post' //默认post
             }
         });
@@ -120,7 +120,7 @@
             }
             $.ajax({
                 type:"POST",
-                url:"http://localhost/ode_blog/home/article/add",
+                url:"http://47.52.130.241/ode_blog/index.php/home/article/add",
                 data:{article_title:article_title,article_content:article_content,article_type:article_type,text:text},
                 success:function(data){
                     layer.msg('添加成功，2秒后跳转');

@@ -12,8 +12,11 @@ class IndexController extends Controller {
         $recommend = $recommendModel->getRecommendList();
         $articleModel = new ArticleModel();
         $clicks = $articleModel->getClickList();
+        $list = $articleModel->getIndexArticleList();
+
 //        dumpp($clicks);
         $this->assign('clicks',$clicks);
+        $this->assign('list',$list);
         $this->assign('category',$category);
         $this->assign('recommend',$recommend);
         $this->display();

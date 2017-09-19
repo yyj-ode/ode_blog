@@ -19,7 +19,7 @@ class UploadController extends Controller {
                 $result['code'] = 0;
                 $result['msg'] = '成功';
                 $result['data'] = [
-                    'src' => 'http://localhost/ode_blog/uploads/'.$file['savepath'].$file['savename'],
+                    'src' => 'http://47.52.130.241/ode_blog/Uploads/'.$file['savepath'].$file['savename'],
                     'title' => '测试图片',
                 ];
                 $result['data'] = (object)$result['data'];

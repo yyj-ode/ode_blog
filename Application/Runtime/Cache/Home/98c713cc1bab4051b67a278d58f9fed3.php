@@ -72,10 +72,10 @@
           </li><?php endforeach; endif; ?>
       </div>
       <div class="pagelist">页次：<?php echo ($data["page"]); ?>/<?php echo ($data["count"]); ?> 每页6 总数<?php echo ($data["total"]); ?>
-        <a href="/ode_blog/index.php/Home/Film/index/page/1"> 首页 </a>
-        <a href="/ode_blog/index.php/Home/Film/index/page/<?php echo ($data["pre"]); ?>"> 上一页 </a>
-        <a href="/ode_blog/index.php/Home/Film/index/page/<?php echo ($data["next"]); ?>">下一页 </a>
-        <a href="/ode_blog/index.php/Home/Film/index/page/<?php echo ($data["count"]); ?>">尾页 </a></div>
+        <a href="/ode_blog/index.php/Home/Circle/index/page/1"> 首页 </a>
+        <a href="/ode_blog/index.php/Home/Circle/index/page/<?php echo ($data["pre"]); ?>"> 上一页 </a>
+        <a href="/ode_blog/index.php/Home/Circle/index/page/<?php echo ($data["next"]); ?>">下一页 </a>
+        <a href="/ode_blog/index.php/Home/Circle/index/page/<?php echo ($data["count"]); ?>">尾页 </a></div>
     </div>
   </div>
   <div class="blank"></div>
