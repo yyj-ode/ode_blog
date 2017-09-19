@@ -68,7 +68,7 @@
         <div class="bloglist f_l">
             <foreach name="list" item="v">
                 <h3><a href="__MODULE__/article/detail/article_id/{$v['article_id']}">【{$v['atype_name']}】{$v['article_title']}</a></h3>
-                <figure><img src="__PUBLIC__/images/img_1.jpg" alt="【{$v['atype_name']}】{$v['article_title']}"></figure>
+                <figure><img src="{$v['article_img']}" alt="【{$v['atype_name']}】{$v['article_title']}"></figure>
                 <ul>
                     <p> {$v['article_summary']}</p>
                     <a title="{$v['article_title']}" href="__MODULE__/article/detail/article_id/{$v['article_id']}" class="readmore">阅读全文&gt;&gt;</a>

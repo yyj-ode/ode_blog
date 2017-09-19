@@ -27,7 +27,7 @@ class ArticleModel extends Model {
 
     public function getIndexArticleList(){
         $data = M('article a')
-            ->field('a.article_id,a.atype_id,a.article_summary,a.article_title,FROM_UNIXTIME(article_time,\'%Y-%m-%d\') article_time,`at`.atype_name,`at`.controller')
+            ->field('a.article_id,a.atype_id,a.article_summary,a.article_title,FROM_UNIXTIME(article_time,\'%Y-%m-%d\') article_time,`at`.atype_name,`at`.controller,a.article_img')
             ->join('ode_articletype at ON a.atype_id = `at`.atype_id ','LEFT')
             ->group('atype_id')
             ->order('article_time DESC')

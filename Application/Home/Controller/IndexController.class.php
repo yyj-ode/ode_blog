@@ -14,7 +14,7 @@ class IndexController extends Controller {
         $clicks = $articleModel->getClickList();
         $list = $articleModel->getIndexArticleList();
 
-//        dumpp($clicks);
+//        dumpp($list);
         $this->assign('clicks',$clicks);
         $this->assign('list',$list);
         $this->assign('category',$category);
