@@ -38,8 +38,8 @@ class ArticleModel extends Model {
               `at`.atype_name,`at`.controller,a.article_img
             FROM (SELECT * from ode_article ORDER BY article_time desc) a
             LEFT JOIN ode_articletype at ON a.atype_id = `at`.atype_id
-            GROUP BY atype_id
-            ORDER BY article_time DESC
+            GROUP BY a.atype_id
+            ORDER BY a.atype_id DESC
         ");
         return $data;
     }
