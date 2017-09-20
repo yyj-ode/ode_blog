@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="layui/css/layui.css"  media="all">
+    <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+</head>
+<body>
+
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>上传多张图片</legend>
+</fieldset>
+
+<form class="layui-form" action="" enctype="multipart/form-data" method="post" id="form">
+    <div class="layui-form-item">
+        <label class="layui-form-label">城市</label>
+        <div class="layui-input-inline">
+            <select name="ptype_id" id="view">
+                <option value="">请选照片分类</option>
+            </select>
+        </div>
+        <div class="layui-input-inline">
+            <button class="layui-btn" lay-submit lay-filter="formDemo" style="margin-left: 40px;">立即提交</button>
+        </div>
+        <script id="demo" type="text/html">
+            {{#  layui.each(d, function(index, item){ }}
+            <option value="{{ item.ptype_id }}">{{ item.ptype_name }}</option>
+            {{#  }); }}
+        </script>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-upload">
+            <button type="button" class="layui-btn" id="test2">多图片上传</button>
+            <blockquote class="layui-elem-quote layui-quote-nm" style="margin-top: 10px;">
+                预览图：
+                <div class="layui-upload-list" id="demo2"></div>
+            </blockquote>
+        </div>
+        <input type="hidden" name="photo" id="photo">
+        <input type="hidden" name="thumb" id="thumb">
+
+    </div>
+</form>
+
+<script src="../conf/conf.js"></script>
+<script src="layui/layui.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
+<script>
+    layui.use(['form','laydate','element','laytpl','layer','upload'], function(){
+        var $ = layui.jquery
+                ,upload = layui.upload
+                ,form = layui.form
+                ,layer = layui.layer
+                ,element = layui.element
+                ,laydate = layui.laydate
+                ,laytpl = layui.laytpl;
+
+        $("#form").attr('action',conf_host+"Home/Photo/photoAdd");//sdddddddddfasdfasdf
+
+        $.ajax({
+            type:'POST',
+            url:conf_host+"Home/Upload/getPtypeData",
+            success:function(data){
+                var getTpl = demo.innerHTML;
+                var data_object = $.parseJSON( data );
+                laytpl(getTpl).render(data_object, function(html){
+                    view.innerHTML += html;
+                    form.render();
+
+                });
+            },
+            error:function(){
+                layer.msg('访问服务器失败');
+            }
+        });
+
+        //多图片上传
+        upload.render({
+            elem: '#test2'
+            ,url: conf_host+"Home/Upload/photoUpload"
+            ,multiple: true
+            ,type: 'POST'
+            ,before: function(obj){
+                //预读本地文件示例，不支持ie8
+                obj.preview(function(index, file, result){
+                    $('#demo2').append('<img src="'+ result +'" alt="'+ file.name +'" class="layui-upload-img">')
+                });
+            }
+            ,done: function(data){
+                //上传完毕
+                var photo = $('#photo').val();
+                var thumb = $('#thumb').val();
+                photo += data.data.src;
+                thumb += data.data.thumb;
+                $('#photo').val(photo);
+                $('#thumb').val(thumb);
+//                layer.msg(photo);
+            }
+        });
+
+    });
+</script>
+
+</body>
+</html>
