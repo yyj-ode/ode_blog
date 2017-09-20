@@ -8,6 +8,7 @@ class ArticleModel extends Model {
             ->table('ode_article')
             ->field("*,FROM_UNIXTIME(article_time,'%Y-%m-%d') time")
             ->where("atype_id = $atype_id")
+            ->order("article_time desc")
             ->limit($start,6)
             ->select();
         $count =  M()->table('ode_article')->where("atype_id = $atype_id")->count();
@@ -26,12 +27,20 @@ class ArticleModel extends Model {
     }
 
     public function getIndexArticleList(){
-        $data = M('article a')
-            ->field('a.article_id,a.atype_id,a.article_summary,a.article_title,FROM_UNIXTIME(article_time,\'%Y-%m-%d\') article_time,`at`.atype_name,`at`.controller,a.article_img')
-            ->join('ode_articletype at ON a.atype_id = `at`.atype_id ','LEFT')
-            ->group('atype_id')
-            ->order('article_time DESC')
-            ->select();
+//        $data = M('article a')
+//            ->field('a.article_id,a.atype_id,a.article_summary,a.article_title,FROM_UNIXTIME(article_time,\'%Y-%m-%d\') article_time,`at`.atype_name,`at`.controller,a.article_img')
+//            ->join('ode_articletype at ON a.atype_id = `at`.atype_id ','LEFT')
+//            ->group('atype_id')
+//            ->order('article_time DESC')
+//            ->select();
+        $data = M('')->query("
+            SELECT a.article_id,a.atype_id,a.article_summary,a.article_title,FROM_UNIXTIME(article_time,'%Y-%m-%d') article_time,
+              `at`.atype_name,`at`.controller,a.article_img
+            FROM (SELECT * from ode_article ORDER BY article_time desc) a
+            LEFT JOIN ode_articletype at ON a.atype_id = `at`.atype_id
+            GROUP BY atype_id
+            ORDER BY article_time DESC
+        ");
         return $data;
     }
 
