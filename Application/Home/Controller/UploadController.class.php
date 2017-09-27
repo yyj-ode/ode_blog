@@ -21,8 +21,13 @@ class UploadController extends Controller {
             foreach($info as $file){
                 $result['code'] = 0;
                 $result['msg'] = '成功';
+                // 按照原图的比例生成一个最大为220*160的缩略图并保存为thumb.jpg
+                $image = new \Think\Image();
+                $image->open( $upload->rootPath.$file['savepath'].$file['savename']);
+                $image->thumb(220, 160)->save(  $upload->rootPath.$file['savepath'].'thumb'.$file['savename']);
                 $result['data'] = [
-                    'src' => 'http://47.52.130.241/ode_blog/Uploads/'.$file['savepath'].$file['savename'],
+                    'src' => 'http://'.C('DB_HOST').'/ode_blog/Uploads/'.$file['savepath'].$file['savename'],
+                    'thumb' => 'http://'.C('DB_HOST').'/ode_blog/Uploads/'.$file['savepath'].'thumb'.$file['savename'],
                     'title' => '测试图片',
                 ];
                 $result['data'] = (object)$result['data'];
@@ -48,13 +53,14 @@ class UploadController extends Controller {
             foreach($info as $file){
                 $result['code'] = 0;
                 $result['msg'] = '成功';
+                // 按照原图的比例生成一个最大为220*160的缩略图并保存为thumb.jpg
                 $image = new \Think\Image();
                 $image->open( $upload->rootPath.$file['savepath'].$file['savename']);
-                // 按照原图的比例生成一个最大为150*150的缩略图并保存为thumb.jpg
                 $image->thumb(220, 160)->save(  $upload->rootPath.$file['savepath'].'thumb'.$file['savename']);
+
                 $result['data'] = [
-                    'src' => 'http://47.52.130.241/ode_blog/Uploads/'.$file['savepath'].$file['savename'].',',
-                    'thumb' => 'http://47.52.130.241/ode_blog/Uploads/'.$file['savepath'].'thumb'.$file['savename'].',',
+                    'src' => 'http://'.C('DB_HOST').'/ode_blog/Uploads/'.$file['savepath'].$file['savename'].',',
+                    'thumb' => 'http://'.C('DB_HOST').'/ode_blog/Uploads/'.$file['savepath'].'thumb'.$file['savename'].',',
                     'title' => '测试图片',
                 ];
 
@@ -67,10 +73,9 @@ class UploadController extends Controller {
     //添加图片到数据库
     public function photoAdd(){
         $photo = I('photo');
-        $ptype_id = I('ptype_id')?:0;//现在就差前台的一个下拉表没做，没穿这个$ptype_id
+        $ptype_id = I('ptype_id')?:0;
         $photo = rtrim($photo, ",");
         $imgs = explode(',',$photo);
-//        dumpp($imgs);
         foreach($imgs as $k => $v){
             $data['photo_img'] = $v;
             $data['ptype_id'] = $ptype_id;
@@ -87,5 +92,10 @@ class UploadController extends Controller {
     public function getPtypeData(){
         $data = M('phototype')->select();
         echo json_encode($data);
+    }
+
+    //压缩图片至 $width * $height 像素
+    public function imgCompress(){
+
     }
 }

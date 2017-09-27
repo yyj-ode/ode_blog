@@ -18,15 +18,6 @@
   <div class="headtop"></div>
   <div class="contenttop">
     <div class="logo f_l">郝颂歌的个人博客</div>
-    <div class="search f_r">
-      <!--<form action="/e/search/index.php" method="post" name="searchform" id="searchform">-->
-        <!--<input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">-->
-        <!--<input name="show" value="title" type="hidden">-->
-        <!--<input name="tempid" value="1" type="hidden">-->
-        <!--<input name="tbname" value="news" type="hidden">-->
-        <!--<input name="Submit" class="input_submit" value="搜索" type="submit">-->
-      <!--</form>-->
-    </div>
     <div class="blank"></div>
     <nav>
       <div  class="navigation">
@@ -81,11 +72,11 @@
           </li>
         </foreach>
       </div>
-      <div class="pagelist">页次：{$data.page}/{$data.count} 每页6 总数{$data.total}
+      <div class="pagelist">页次：{$data.page.page}/{$data.page.count} 每页6 总数{$data.total}
         <a href="__ACTION__/page/1"> 首页 </a>
-        <a href="__ACTION__/page/{$data.pre}"> 上一页 </a>
-        <a href="__ACTION__/page/{$data.next}">下一页 </a>
-        <a href="__ACTION__/page/{$data.count}">尾页 </a></div>
+        <a href="__ACTION__/page/{$data.page.pre}"> 上一页 </a>
+        <a href="__ACTION__/page/{$data.page.next}">下一页 </a>
+        <a href="__ACTION__/page/{$data.page.count}">尾页 </a></div>
     </div>
   </div>
   <div class="blank"></div>

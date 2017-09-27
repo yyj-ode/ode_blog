@@ -2,6 +2,7 @@
 namespace Home\Model;
 use Think\Model;
 class CategoryModel extends Model {
+    //获取目录分类数据
     public function getCategoryData(){
         $data = M()->query('SELECT * FROM ode_category c WHERE cat_level = 1');
         foreach($data as $k => $v){
@@ -15,4 +16,12 @@ class CategoryModel extends Model {
         }
         return $data;
     }
+
+    //获取目录分类表的全部数据
+    public function getAllCategoryData(){
+        $data = M('category')->select();
+        return $data;
+    }
+
+
 }
