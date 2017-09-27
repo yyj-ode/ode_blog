@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+use Home\Model\PageModel;
 use Home\Model\CategoryModel;
 
 class PhotoController extends Controller {
@@ -13,7 +14,6 @@ class PhotoController extends Controller {
             ->join('ode_photo p on pt.ptype_id = p.ptype_id','LEFT')
             ->group('p.ptype_id')
             ->select();
-//        dumpp($phototype);
         $this->assign('phototype',$phototype);
         $this->assign('category',$category);
         $this->display('Photo/phototypeList');
@@ -23,27 +23,16 @@ class PhotoController extends Controller {
     public function photoList(){
         $ptype_id = I('ptype_id');
         $page = I('page')?:1;
-        $start = ($page-1)*6;
+        $start = ($page-1)*12;
         $data['list'] = M('photo')
             ->where("ptype_id = $ptype_id")
             ->order('photo_id desc')
             ->limit($start,12)
             ->select();
-//        dumpp($photo);
         $count = M('photo')
             ->where("ptype_id = $ptype_id")
             ->count();
-        $data['count'] = ceil($count/12);    //总页数
-        $data['total'] = $count;    //总数
-        $data['page'] = $page;  //当前页
-        $data['pre'] = $page-1;   //上一页
-        if($data['pre'] < 1){
-            $data['pre'] = 1;
-        }
-        $data['next'] = $page+1;  //下一页
-        if($data['next'] > $data['count']){
-            $data['next'] = $data['count'];
-        }
+        $data['page'] = PageModel::getPageList($page,$count,12);
         $categoryModel = new CategoryModel();
         $category = $categoryModel->getCategoryData();
         $this->assign('category',$category);
@@ -60,7 +49,6 @@ class PhotoController extends Controller {
         $thumb = rtrim($thumb, ",");
         $imgs = explode(',',$photo);
         $thumbs = explode(',',$thumb);
-//        dumpp($imgs);
         foreach($imgs as $k => $v){
             foreach($thumbs as $k1 => $v1){
                 $data['photo_img'] = $v;

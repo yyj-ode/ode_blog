@@ -11,12 +11,11 @@ class ArticleController extends Controller {
         $data['atype_id'] = I('article_type');
         $data['article_clicks'] =0;
         $text = I('text');
+
         //getArticleSummary() --> 从正文中截取文章的摘要
         $data['article_summary'] = $this->getArticleSummary($text);
-
         //getArticleImg() --> 获从正文中截取第一张图片
         $img = $this->getArticleImg($data['article_content']);
-
         //获取第一张图片的缩略图，作为文章标题的配图
         $data['article_img'] = $this->getThumbUrl($img);
 
@@ -56,7 +55,7 @@ class ArticleController extends Controller {
         preg_match('/img src=&quot;(.*?)&quot;/',$content,$img);
         $img = $img[1];
         if($img == null){
-            $img = 'http://'.C('DB_HOST').'/ode_blog/Uploads/default.jpg';
+            $img = 'http://'.C('DB_HOST').'/Uploads/default.jpg';
         }
         return $img;
     }

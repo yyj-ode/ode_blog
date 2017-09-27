@@ -16,7 +16,7 @@ class ArticleModel extends Model {
         //获取总条数
         $count =  M('article')->where("atype_id = $atype_id")->count();
         //获取页码数据
-        $data['page'] = PageModel::getPageList($page,$count);
+        $data['page'] = PageModel::getPageList($page,$count,6);
         return $data;
     }
 

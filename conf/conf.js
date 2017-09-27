@@ -3,7 +3,8 @@
 
 
 // 测试服务器配置
-var conf_host = 'http://47.52.130.241/ode_blog/index.php/';
+// var conf_host = 'http://47.52.130.241/ode_blog/index.php/';
+var conf_host = 'http://www.songgehao.top/index.php/';
 
 
 // 线上服务器配置
